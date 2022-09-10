@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/border_selected.xml" value="0.1175" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/bottomsheetround.xml" value="0.121" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/cursor.xml" value="0.1175" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/leftborder.xml" value="0.1175" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/orange_color.xml" value="0.121" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/radiobutton.xml" value="0.1175" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/radioselected.xml" value="0.1175" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/radioselector.xml" value="0.1175" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/radiotext.xml" value="0.1175" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout-v28/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_search_product.xml" value="0.17447916666666666" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_show_cart.xml" value="0.17447916666666666" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_splash.xml" value="0.17447916666666666" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_store_details.xml" value="0.17447916666666666" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/adapter_audio.xml" value="0.1" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/adapter_cart.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/border_selected.xml" value="0.17447916666666666" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/dropdown_item.xml" value="0.17447916666666666" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_audio.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_create_order.xml" value="0.16666666666666666" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_home.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_laptop_tablet.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_smart_phones.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_tv.xml" value="0.17447916666666666" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

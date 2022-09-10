@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mishop">
+
+<!--    <uses-feature android:name="android.hardware.camera.autoFocus" />-->
+<!--    <uses-feature android:name="android.hardware.camera" />-->
+<!--    <uses-permission android:name="android.permission.CAMERA" />-->
+<!--    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/milogo"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:roundIcon="@drawable/milogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MiShop"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+
+        </activity>
+        <activity android:name=".ui.Splash.splashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.Login.loginActivity"
+            android:launchMode="singleTop">
+
+        </activity>
+        <activity android:name=".ui.Login.storedetails" />
+        <activity android:name=".ui.createOrder.SearchProduct.searchProduct" />
+        <activity android:name=".ui.createOrder.categoryFragments.cart.Cart"
+            android:parentActivityName=".MainActivity"/>
+
+        <!-- for barcode scanner orientation -->
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation" />
+        <activity android:name=".ui.createOrder.categoryFragments.scanQR" />
+    </application>
+
+</manifest>

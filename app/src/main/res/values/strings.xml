@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Mi Shop</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="shop_easy">Shop Easy</string>
+    <string name="mi_shop">Mi Shop</string>
+    <string name="welcome_to_mi_shop">Welcome to Mi Shop</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_order">Create Order</string>
+    <string name="pos_id">POS ID <font color="#FF0000">*</font></string>
+    <string name="store_type">Store Type <font color="#FF0000">*</font></string>
+    <string name="store_name">Store Name <font color="#FF0000">*</font></string>
+    <string name="kindly_mention_the_details_to_continue">Kindly mention the details to continue</string>
+    <string name="proceed">proceed</string>
+    <string name="smart_phones">Smart-Phones</string>
+    <string name="tvs">TVs</string>
+    <string name="laptops_amp_tablets"><![CDATA[Laptops & Tablets]]></string>
+    <string name="phone_accessories">Phone Accessories</string>
+    <string name="audio">Audio</string>
+    <string name="power_banks">Power Banks</string>
+    <string name="grooming">Grooming</string>
+    <string name="smart_wearables">Smart Wearables</string>
+    <string name="backpack_amp_travel"><![CDATA[Backpack & Travel]]></string>
+    <string name="smart_home">Smart Home</string>
+    <string name="lifestyle">Lifestyle</string>
+    <string name="budget_bundles">Budget Bundles</string>
+
+    <string-array name="store_type">
+        <item>Mi Home</item>
+        <item>Mi Store</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="total">Total: ₹</string>
+    <string name="_4022_87">4022.87</string>
+    <string name="checkout">CheckOut</string>
+</resources>

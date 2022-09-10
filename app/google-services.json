@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "190998607299",
+    "project_id": "mi-shop-651b5",
+    "storage_bucket": "mi-shop-651b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190998607299:android:eaeb846c1b1873d572f976",
+        "android_client_info": {
+          "package_name": "com.example.mishop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190998607299-l6nlle2kao4tccp6ua7tnkna6ms64geq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mishop",
+            "certificate_hash": "1cf7a5c2b609773aac1dda11085db574b9e8a752"
+          }
+        },
+        {
+          "client_id": "190998607299-ln6p5d5cfq2nvkahg5go4enmt6uu1iao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAftIAFO7wYyIaxWHiuiZb5AeyU0LsqmY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190998607299-ln6p5d5cfq2nvkahg5go4enmt6uu1iao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

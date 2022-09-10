@@ -1,0 +1,8 @@
+<TextView android:id="@+id/tv_menu"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:textColor="@color/black"
+    android:textSize="@dimen/_12sdp"
+    android:padding="@dimen/_10sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:text="textview" />
