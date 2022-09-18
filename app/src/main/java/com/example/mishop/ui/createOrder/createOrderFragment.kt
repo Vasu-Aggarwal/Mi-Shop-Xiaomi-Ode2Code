@@ -78,7 +78,6 @@ class createOrderFragment : Fragment() {
         }
 
         getlistCart()
-        text
     }
 
 

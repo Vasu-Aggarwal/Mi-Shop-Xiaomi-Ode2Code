@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/border_selected.xml" value="0.1175" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/bottom_navigation.xml" value="0.121" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/bottomsheetround.xml" value="0.121" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/cursor.xml" value="0.1175" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/leftborder.xml" value="0.1175" />
@@ -13,18 +14,27 @@
         <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/radioselector.xml" value="0.1175" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/drawable/radiotext.xml" value="0.1175" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout-v28/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_checkout.xml" value="0.17447916666666666" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_detailed_history.xml" value="0.17447916666666666" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_order_summary.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_payment.xml" value="0.17552083333333332" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_search_product.xml" value="0.17447916666666666" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_show_cart.xml" value="0.17447916666666666" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_splash.xml" value="0.17447916666666666" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/activity_store_details.xml" value="0.17447916666666666" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/adapter_audio.xml" value="0.1" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/adapter_cart.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/adapter_detailed_history_orders.xml" value="0.17447916666666666" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/adapter_history_orders.xml" value="0.17447916666666666" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/adapter_order_summary.xml" value="0.17447916666666666" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/border_selected.xml" value="0.17447916666666666" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/dropdown_item.xml" value="0.17447916666666666" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_audio.xml" value="0.17552083333333332" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_create_order.xml" value="0.16666666666666666" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_dashboard.xml" value="0.17552083333333332" />
+        <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_history.xml" value="0.17447916666666666" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_home.xml" value="0.17552083333333332" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_laptop_tablet.xml" value="0.17552083333333332" />
         <entry key="..\:/Apps/MiShop/app/src/main/res/layout/fragment_smart_phones.xml" value="0.17552083333333332" />

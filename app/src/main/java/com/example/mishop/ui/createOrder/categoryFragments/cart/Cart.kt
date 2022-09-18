@@ -1,7 +1,11 @@
 package com.example.mishop.ui.createOrder.categoryFragments.cart
 
+import android.content.Intent
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.util.Log
+import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -9,6 +13,7 @@ import com.example.mishop.R
 import com.example.mishop.Utilities.Constants
 import com.example.mishop.Utilities.SharedPref
 import com.example.mishop.ui.Models.cartItemModel
+import com.example.mishop.ui.checkout.Checkout
 import com.example.mishop.ui.createOrder.categoryFragments.cart.Adapter.CartAdapter
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.firebase.database.DataSnapshot
@@ -18,11 +23,13 @@ import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_show_cart.*
+import java.text.DecimalFormat
 
 class Cart : AppCompatActivity(), CartAdapter.ItemClickListener {
 
     private lateinit var mref: DatabaseReference
     private lateinit var cartProductList: ArrayList<cartItemModel>
+    private lateinit var checkoutprice: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,14 +43,17 @@ class Cart : AppCompatActivity(), CartAdapter.ItemClickListener {
         getCartData()
         setdata()
         setBottomSheetPrice()
-
+        btnDone.setOnClickListener {
+            Log.d("cprice", "onCreate: "+checkoutprice)
+            val intent = Intent(this, Checkout::class.java)
+            intent.putExtra("pp", checkoutprice)
+            startActivity(intent)
+        }
     }
 
     private fun setdata() {
         val layoutManager = LinearLayoutManager(this)
         rvShowCart!!.layoutManager = layoutManager
-        rvShowCart!!.addItemDecoration(DividerItemDecoration(this, layoutManager.orientation))
-
     }
 
     private fun getCartData() {
@@ -72,6 +82,7 @@ class Cart : AppCompatActivity(), CartAdapter.ItemClickListener {
     private fun setBottomSheetPrice() {
         BottomSheetBehavior.from(bottomSheetPrice).apply {
             peekHeight = 180
+
             this.state = BottomSheetBehavior.STATE_COLLAPSED
 
             mref = Firebase.database.getReference("Orders").child(
@@ -91,7 +102,17 @@ class Cart : AppCompatActivity(), CartAdapter.ItemClickListener {
                     pricesArray.forEach {
                         tp += it
                     }
-                    txtPrice.text = tp.toString()
+
+                    //To show the commas in total price
+                    checkoutprice = tp.toString() //to send the price further for payment
+                    val oS = tp.toString()
+                    val df = DecimalFormat.getCurrencyInstance().format(oS.toInt())
+                    txtPrice.text = df
+
+                    if(pricesArray.size == 0){ //if cart is empty then return back
+                        btnDone.isEnabled = false
+                        finish()
+                    }
                     btnDone.text = "checkout(${pricesArray.size})"
                     pricesArray.removeAll(pricesArray.toSet())
                 }

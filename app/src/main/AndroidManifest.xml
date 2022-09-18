@@ -3,10 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.mishop">
 
-<!--    <uses-feature android:name="android.hardware.camera.autoFocus" />-->
-<!--    <uses-feature android:name="android.hardware.camera" />-->
-<!--    <uses-permission android:name="android.permission.CAMERA" />-->
-<!--    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -48,7 +46,10 @@
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:screenOrientation="fullSensor"
             tools:replace="screenOrientation" />
-        <activity android:name=".ui.createOrder.categoryFragments.scanQR" />
+        <activity android:name=".ui.checkout.Checkout" />
+        <activity android:name=".ui.orderSummary.OrderSummary" />
+        <activity android:name=".ui.payment.Payment"></activity>
+        <activity android:name=".ui.history.detailedHistory" />
     </application>
 
 </manifest>

@@ -66,4 +66,10 @@ dependencies {
     //for barcode scanner
     implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
 
+    //Razorpay integration
+    implementation 'com.razorpay:checkout:1.6.19'
+
+    //for refresher layout
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
 }

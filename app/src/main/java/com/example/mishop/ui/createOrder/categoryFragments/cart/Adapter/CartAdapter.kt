@@ -20,6 +20,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
+import java.text.DecimalFormat
 
 
 class CartAdapter(private val cartList: ArrayList<cartItemModel>, var mClickListener: ItemClickListener)
@@ -54,7 +55,11 @@ class CartAdapter(private val cartList: ArrayList<cartItemModel>, var mClickList
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.ProductName.text = cartList[position].name
         holder.quantity.text = cartList[position].quantity.toString()
-        holder.price.text = "₹ " + cartList[position].price
+
+        //To add proper commas according to currency
+        val oS = cartList[position].price
+        val df = DecimalFormat.getCurrencyInstance().format(oS.toInt())
+        holder.price.text = df
         Glide.with(context).load(cartList[position].image).into(holder.itemImg)
 
         mref = Firebase.database.getReference("Orders")

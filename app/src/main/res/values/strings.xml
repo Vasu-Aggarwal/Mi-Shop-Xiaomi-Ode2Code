@@ -32,9 +32,23 @@
         <item>Mi Home</item>
         <item>Mi Store</item>
     </string-array>
+
+    <string-array name="MOC">
+        <item>WhatsApp</item>
+        <item>Email ID</item>
+    </string-array>
+
+    <string-array name="MOD">
+        <item>Home Delivery</item>
+        <item>Take Away</item>
+    </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="total">Total: ₹</string>
+    <string name="total">Total: </string>
     <string name="_4022_87">4022.87</string>
     <string name="checkout">CheckOut</string>
+    <string name="operator_id">operator id:</string>
+    <string name="mode_of_communication">Mode of Communication</string>
+    <string name="delivery_method">Delivery Method</string>
 </resources>

@@ -24,8 +24,8 @@ class splashActivity : AppCompatActivity() {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO) //remove night mode
 
         Handler().postDelayed({
-            if(auth.currentUser == null) {
-                val intent = Intent(this, MainActivity::class.java)
+            if(auth.currentUser == null) { //if user not logged in
+                val intent = Intent(this, loginActivity::class.java)
                 startActivity(intent)
                 finish()
 
